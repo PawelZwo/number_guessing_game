@@ -16,9 +16,9 @@ def guess_game():
     user_pick = get_number()
     while pc_pick != user_pick:
         if user_pick < pc_pick:
-            print("Too small! Try again.")
+            print("Too small! Try again.\n")
         else:
-            print("Too big! Try again.")
+            print("Too big! Try again.\n")
         user_pick = get_number()
     print(f"You Win! The number was {pc_pick}.")
 
